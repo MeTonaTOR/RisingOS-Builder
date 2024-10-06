@@ -73,7 +73,7 @@ jobs:
 
   build:
     needs: check-limit
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     env:
       USER: sketu
       BRAND: ${{ inputs.BRAND }}
